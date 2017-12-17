@@ -1,0 +1,4 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(HelloWorld)
+ADD_SUBDIRECTORY(src/hello)
+INSTALL(PROGRAMS build/bin/hello DESTINATION /usr/local/bin/)
